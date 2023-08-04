@@ -9,7 +9,7 @@ describe("Given a App component", () => {
 
       const headingTitle = screen.getByRole("heading", { name: titleText });
 
-      expect(headingTitle).toBeInTheDocument;
+      expect(headingTitle).toBeInTheDocument();
     });
   });
 });
